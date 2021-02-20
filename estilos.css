@@ -1,0 +1,62 @@
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Cyan2: hsla(179, 62%, 43%, 0.568);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body{
+    background-color: var(--Light-Gray) ;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.info{
+    background: #fff;
+    width: 750px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.subscribe{
+    background-color: var(--Cyan);
+    border-bottom-left-radius: 10px;
+}
+.why{
+    background-color: var(--Cyan2);
+    border-bottom-right-radius: 10px;
+    width: 370px;
+}
+.btn{
+    background-color: var(--Bright-Yellow);
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+h1{
+    color: var(--Cyan);
+    margin-top: 35px;
+    padding-bottom:15px;
+}
+h3{
+    color: var(--Light-Gray);
+    margin-top: 20px;
+    padding-left: 5px;
+}
+.free{
+    color: var(--Bright-Yellow);
+}
+.blue{
+    color: var(--Grayish-Blue);
+}
+.full{
+    color: var(--Light-Gray);
+}
+p{
+    color: #eaeaea;
+    margin-left: 20px;
+}
